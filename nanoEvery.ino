@@ -5,7 +5,7 @@
 //  Available from:  https://github.com/mchlbrnhrd/nanoEvery
 //
 //  Description:     Example code for Arduino Nano Every (ATMEGA4809)
-//                   * timer - real time clock (RTC)
+//                   * timer - real time counter (RTC)
 //                   * watchdog
 //
 // GNU General Public License v3.0
