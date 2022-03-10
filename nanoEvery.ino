@@ -34,6 +34,8 @@ void setup() {
   
   wdt_reset(); // call this at the beginning of setup()
   wdt_disable(); // call this at the beginning of setup()
+  delay(1000);
+  wdt_reset();
 
   Serial.begin(9600);
   counter=0;
@@ -74,7 +76,6 @@ void loop() {
   delay(1000);
   wdt_reset(); // call wdt_reset in less then 8 seconds
                // remove wdt_reset and see what happens
-
 }
 
 
